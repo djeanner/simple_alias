@@ -1,0 +1,33 @@
+/* default package */
+
+public class WorkDialog extends GJTDialog
+{
+    /* Fields */
+    private ButtonPanel buttonPanel;
+    private java/awt/Panel workPanel;
+
+    /* Constructors */
+    public WorkDialog(java/awt/Frame, DialogClient, java/lang/String) {
+    }
+
+    public WorkDialog(java/awt/Frame, DialogClient, java/lang/String, Orientation, boolean) {
+    }
+
+    public WorkDialog(java/awt/Frame, DialogClient, java/lang/String, java/awt/Panel, Orientation, boolean) {
+    }
+
+    public WorkDialog(java/awt/Frame, DialogClient, java/lang/String, boolean) {
+    }
+
+
+    /* Methods */
+    public void addButton(java/awt/Button) {
+    }
+
+    public java/awt/Button addButton(java/lang/String) {
+    }
+
+    public void setWorkPanel(java/awt/Panel) {
+    }
+
+}

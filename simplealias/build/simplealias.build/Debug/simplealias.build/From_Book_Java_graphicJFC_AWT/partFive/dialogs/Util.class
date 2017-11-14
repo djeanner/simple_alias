@@ -1,0 +1,20 @@
+/* default package */
+
+public class Util extends java/lang/Object
+{
+    /* Constructors */
+    public Util() {
+    }
+
+
+    /* Methods */
+    public static java/awt/Frame getFrame(java/awt/Component) {
+    }
+
+    public static void waitForImage(java/awt/Component, java/awt/Image) {
+    }
+
+    public static void wallPaper(java/awt/Component, java/awt/Graphics, java/awt/Image) {
+    }
+
+}

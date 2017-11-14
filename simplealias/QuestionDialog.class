@@ -1,0 +1,51 @@
+/* default package */
+
+public class QuestionDialog extends WorkDialog
+    implements java/awt/event/ActionListener
+{
+    /* Fields */
+    private static int _defaultTextFieldSize;
+    private java/awt/Button okButton;
+    private java/awt/Button cancelButton;
+    private java/lang/String question;
+    private java/awt/TextField textField;
+	private java/awt/TextArea textArea;
+    private boolean wasCancelled;
+    private ButtonPanel buttonPanel;
+
+    /* Constructors */
+ 
+    public QuestionDialog(java/awt/Frame, DialogClient, java/lang/String, java/lang/String, java/lang/String[], int, java/awt/Image, boolean) {
+    }
+
+
+
+    /* Methods */
+    public void actionPerformed(java/awt/event/ActionEvent) {
+    }
+
+    public java/lang/String getAnswer() {
+    }
+
+    public java/awt/TextField getTextField() {
+    }
+	
+	public java/awt/TextArea getTextArea() {
+    }
+
+    public void returnInTextField() {
+    }
+	
+    public void returnInTextArea() {
+    }
+	
+	private void setQuestion(java/lang/String) {
+    }
+
+    public void setVisible(boolean) {
+    }
+
+    public boolean wasCancelled() {
+    }
+
+}

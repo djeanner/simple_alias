@@ -1,0 +1,42 @@
+/* default package */
+
+public class ColumnLayout extends java/lang/Object
+    implements java/awt/LayoutManager
+{
+    /* Fields */
+    private static int _defaultGap;
+    private int gap;
+    private Orientation verticalOrientation;
+    private Orientation horizontalOrientation;
+
+    /* Constructors */
+    public ColumnLayout() {
+    }
+
+    public ColumnLayout(int) {
+    }
+
+    public ColumnLayout(Orientation, Orientation) {
+    }
+
+    public ColumnLayout(Orientation, Orientation, int) {
+    }
+
+
+    /* Methods */
+    public void addLayoutComponent(java/lang/String, java/awt/Component) {
+    }
+
+    public void layoutContainer(java/awt/Container) {
+    }
+
+    public java/awt/Dimension minimumLayoutSize(java/awt/Container) {
+    }
+
+    public java/awt/Dimension preferredLayoutSize(java/awt/Container) {
+    }
+
+    public void removeLayoutComponent(java/awt/Component) {
+    }
+
+}

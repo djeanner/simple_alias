@@ -1,0 +1,30 @@
+/* default package */
+
+public class GJTDialog extends java/awt/Dialog
+{
+    /* Fields */
+    protected DialogClient client;
+    protected boolean centered;
+
+    /* Constructors */
+    public GJTDialog(java/awt/Frame, java/lang/String, DialogClient, boolean) {
+    }
+
+    public GJTDialog(java/awt/Frame, java/lang/String, DialogClient, boolean, boolean) {
+    }
+
+
+    /* Methods */
+    public void dispose() {
+    }
+
+    public void setCentered(boolean) {
+    }
+
+    public void setClient(DialogClient) {
+    }
+
+    public void setVisible(boolean) {
+    }
+
+}
